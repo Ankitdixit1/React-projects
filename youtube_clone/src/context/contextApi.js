@@ -11,11 +11,6 @@ export const AppContext = (props)=>{
     useEffect(()=>{}); 
 
     return (
-        <Context.Provider
-        value={{loading, setloading,
-            searchresult, setsearchresult,
-            selectcatogry, setselectcatogry,
-            mobilemenu, setmobilemenu}}
-        >{props.children}</Context.Provider>
+        <Context.Provider>{props.children}</Context.Provider>
     );
 };
