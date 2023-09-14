@@ -1,7 +1,15 @@
-
+import { useState, useEffect } from "react"
+import { featchdatafromapi } from "./utils/api"
 
 function App() {
-
+  useEffect( ()=>{
+    apitesting();
+  },[]);
+  const apitesting=(query)=>{
+    featchdatafromapi(`search/?q=${query}`).then((res)=>{
+      console.log(res);
+    })
+  }
 
   return (
     <>
