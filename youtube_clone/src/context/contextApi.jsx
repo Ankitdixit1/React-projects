@@ -13,9 +13,9 @@ export const AppContext = (props)=>{
  },[selectCategories]);
 
  const fetchselectedcategories= (query)=>{
-    featchdatafromapi(`search/?q=${query}`).then((res)=>{
-        console.log(res);
-        // setsearchResults(res)
+    featchdatafromapi(`search/?q=${query}`).then((contents)=>{
+        console.log(contents);
+        setsearchResults(contents)
         setloading(false);
       })
  }
