@@ -17,7 +17,7 @@ import Loader from "../shared/loader";
 const Header = () => {
   const [searchQuery,setSearchQuery] = useState("")
   return (
-    <div></div>
+    <div> </div>
   )
 }
 
