@@ -18,7 +18,7 @@ const Header = () => {
   const [searchQuery,setSearchQuery] = useState("")
   return (
     <div> </div>
-  )
+  ) 
 }
 
 export default Header
