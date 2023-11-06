@@ -1,0 +1,13 @@
+
+.bg-gradient {
+  background: linear-gradient(to right, #FEDDEE, #FCF6FC, #C5EAED);
+  height: 100vh;
+
+}
+
+.bg-gradient-text {
+  background: linear-gradient(to right, #0076CE, #9400D3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
